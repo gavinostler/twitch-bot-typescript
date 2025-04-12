@@ -1,0 +1,31 @@
+{
+  "name": "sebtwitchbotyeah",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx ts-node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/module-alias": "^2.0.4",
+    "@types/recursive-readdir": "^2.2.4",
+    "@types/tmi.js": "^1.8.6",
+    "chalk": "^5.4.1",
+    "dotenv": "^16.5.0",
+    "module-alias": "^2.2.3",
+    "recursive-readdir": "^2.2.3",
+    "tmi.js": "^1.8.5",
+    "ts-node": "^10.9.2"
+  },
+  "_moduleAliases": {
+    "@": "./src/",
+    "@commands": "./src/commands/",
+    "@utils": "./src/utils/",
+    "@events": "./src/events/"
+  }
+}
